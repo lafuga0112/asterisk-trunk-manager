@@ -250,3 +250,14 @@ Las contribuciones son bienvenidas. Por favor:
 3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
+
+
+
+sudo mkdir -p /app
+sudo chown admin:admin /app
+sudo -u admin git clone https://github.com/lafuga0112/asterisk-trunk-manager.git /app/asterisk-trunk-manager
+
+
+wget -O install.sh https://raw.githubusercontent.com/lafuga0112/asterisk-trunk-manager/main/install.sh
+chmod +x install.sh
+sudo ./install.sh
