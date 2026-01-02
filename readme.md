@@ -31,7 +31,7 @@ API REST para gestionar trunks de Asterisk de manera dinámica mediante PJSIP. P
 ### Opción 1: Instalación con un comando
 
 ```bash
-git clone https://github.com/TU_USUARIO/asterisk-trunk-manager.git
+git clone https://github.com/lafuga0112/asterisk-trunk-manager.git
 cd asterisk-trunk-manager
 sudo chmod +x install.sh
 sudo ./install.sh
@@ -41,7 +41,7 @@ sudo ./install.sh
 
 1. **Clonar el repositorio:**
 ```bash
-git clone https://github.com/TU_USUARIO/asterisk-trunk-manager.git
+git clone https://github.com/lafuga0112/asterisk-trunk-manager.git
 cd asterisk-trunk-manager
 ```
 
@@ -253,11 +253,4 @@ Las contribuciones son bienvenidas. Por favor:
 
 
 
-sudo mkdir -p /app
-sudo chown admin:admin /app
-sudo -u admin git clone https://github.com/lafuga0112/asterisk-trunk-manager.git /app/asterisk-trunk-manager
-
-
-wget -O install.sh https://raw.githubusercontent.com/lafuga0112/asterisk-trunk-manager/main/install.sh
-chmod +x install.sh
-sudo ./install.sh
+6489da209222154764666a21cca1f4b7

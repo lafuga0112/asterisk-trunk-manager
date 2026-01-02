@@ -273,3 +273,4 @@ asterisk -rx 'pjsip show auths'
 4. Valida y sanitiza todas las entradas
 5. No expongas directamente a internet
 
+

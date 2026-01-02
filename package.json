@@ -19,11 +19,11 @@
     "sip",
     "telephony"
   ],
-  "author": "Tu Nombre",
+  "author": "lafuga0112",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TU_USUARIO/asterisk-trunk-manager.git"
+    "url": "https://github.com/lafuga0112/asterisk-trunk-manager.git"
   },
   "dependencies": {
     "express": "^4.21.2",
